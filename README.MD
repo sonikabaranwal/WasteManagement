@@ -1,1 +1,0 @@
-A webpage which has information about how to manage waste generated at home and surroundings.
