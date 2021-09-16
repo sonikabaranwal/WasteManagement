@@ -1,0 +1,167 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --nav-bar-height:59px;
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+} 
+#nav-bar ul{
+    display: flex;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-style: italic;
+}
+#logo img{
+    height: 60px;
+    margin:3px 6px;
+}
+#nav-bar::before{
+    content: ""; 
+    background-color:rgb(4, 2, 7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#nav-bar ul li{
+    list-style: none;
+    font-size: 1.5 rem;
+}
+#nav-bar ul li a{
+ color:rgb(4, 39, 4);
+ display: block;
+ padding: 3px 22px;
+ border-radius: 20px;
+ text-decoration: wavy;
+}
+#nav-bar ul li a:hover{
+    color: rgb(145, 57, 64);
+    background-color: rgb(137, 216, 154);   
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 616px;
+    padding: 3px 150px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: ""; 
+    background: url('nature-3294632.jpg') no-repeat center center/cover; 
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;   
+}
+#home p{
+    color:rgb(24, 5, 5);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+#home h1{
+    color:rgb(24, 5, 5);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#services{
+    margin: 34;
+    padding-top: 50px;
+    display: flex;
+}
+#services .box
+{
+    border: 2px solid rgba(2, 37, 2, 0.911);
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background: #f1dadb;
+}
+#services .box .center:hover{
+    transform: scale(1.25);
+}
+#services .box img{
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+.body{
+    background-color: rgb(178, 228, 178);
+}
+
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    }
+    .h-secondary{
+        font-size: 2.8rem;
+        padding: 12px;
+        }
+        .h-tertiary{
+            font-size: 2rem;
+            padding: 10px;
+            padding-top: 50px;
+            font-style: italic;
+        }
+    .btn{
+        padding: 6px 20px;
+        border: 2px solid white;
+        background-color: rgb(158, 19, 26);
+        color: white;
+        margin:17px;
+        font-size: 1.5rem;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+.center{
+    text-align: center;
+}
+.tips{
+    padding-top: 30px;
+    font-style: italic;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+}
+.tips li:hover{
+    transform: scale(1.25);
+    color: rgb(22, 84, 134);
+}
+.references{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.references a:hover{
+    color: rgb(238, 79, 79);
+    transform: scale(1.5);
+}
+footer{
+    display: block;
+    background-color: rgb(86, 163, 105);
+    text-align: center;
+    padding: 50px; 
+}
+
+.description h2{
+    color: rgb(5, 59, 43);
+}
+
+.links img:hover{
+    transform: scale(1.1);
+}
